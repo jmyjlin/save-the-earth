@@ -152,6 +152,7 @@ p#quote {
   border-radius: 9px;
   align-items: center;
   margin-bottom: 65px;
+  width: 800px;
 }
 
 #cta-container button {
@@ -163,10 +164,21 @@ p#quote {
   cursor: pointer;
   font-size: 13px;
   font-weight: 600;
+  flex: 1 1 auto;
 }
 
-#cta-container #cta-txt {
+#cta-txt {
+  flex: 8 1 auto;
+}
+
+#cta-container #cta-txt h4 {
   color: #F9FAF8;
+  font-size: 19px;
+}
+
+#cta-container #cta-txt p {
+  color: #E5E7EB;
+  font-size: 13px;
 }
 
 #footer {
